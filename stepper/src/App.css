@@ -1,0 +1,81 @@
+.step__number{
+  background-color: antiquewhite;
+  width:2rem;
+  height: 2rem;
+  justify-self: center;
+align-self: center;
+padding-top: 0.3rem;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.step__name{
+  width: 25%;
+  margin-left: 43%;
+  margin-top: 5%;
+}
+
+.each__step{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.step__container{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 8%;
+  margin-top: 10%;
+}
+
+
+.iconColor{
+  color: white;
+}
+
+.completed{
+  background-color: green;
+}
+
+.active{
+  background-color: rgb(64, 158, 190);
+}
+
+.whole__container{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.btn{
+  margin-top: 1%;
+}
+
+.whole{
+  position: relative;
+}
+
+.progressbar{
+  background-color: #ccc;
+  width: 60%;
+  height: 8%;
+  position: absolute;
+  left: 18%;
+  top:6%;
+  z-index: -10;
+}
+
+.progress{
+  background-color: green;
+  transition: 0.3s ease;
+  height: 100%;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+

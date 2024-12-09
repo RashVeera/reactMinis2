@@ -1,0 +1,97 @@
+.App {
+    background: rgb(240, 243, 250); 
+    background: radial-gradient(
+      circle,
+      rgba(240, 243, 250, 1) 0%,
+      rgba(202, 215, 241, 1) 50%,
+      rgba(172, 192, 220, 1) 100%
+    );
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  
+.progressbar{
+    width: 300px;
+    height: 10px;
+    background-color: #ffffff; 
+}
+
+
+.progressbar>div{
+    background-color: blueviolet;
+}
+
+
+  .formContainer {
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff; 
+    border-radius: 12px; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid rgba(220, 225, 235, 0.6); 
+    position: relative;
+    margin-top: -10%;
+  }
+
+  button {
+    background-color: #acc0dc;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #8ba6cc; 
+  }
+  
+  .header{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .basicInfo{
+    margin-top: 3rem;
+  }
+
+  .feedback{
+    margin-top: 2rem;
+  }
+
+  input,textarea{
+    padding: 0.6rem;
+    width: 80%;
+    margin-left: 5%;
+    margin-bottom: 1rem;
+  }
+
+  .feedback>textarea,.feedback>input{
+    margin-bottom: 0.5rem;
+
+  }
+
+  select{
+    padding: 0.6rem;
+    margin-left: 5%;
+    margin-bottom: 1rem;
+    width: 87%;
+  }
+
+  .footer{
+    margin-left: 5%;
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    gap: 9rem;
+  }
+
+  .confirmation{
+    margin-left: 10%;
+    margin-top: 10%;
+  }
