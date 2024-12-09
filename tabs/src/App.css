@@ -1,0 +1,51 @@
+.container{
+  width: 40%;
+  height: 30%;
+  border: gray 2px solid;
+  margin-left: 30%;
+  margin-top: 5%;
+  padding: 1rem;
+
+}
+
+.block-tabs{
+  display: flex;
+  gap: 1rem;
+  background-color: lightblue;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
+.tabs{
+  padding: 0.5rem;
+}
+
+.tabs:hover{
+  cursor: pointer;
+}
+
+.active-tabs{
+  background-color: white;
+  border-top: darkblue 5px solid;
+}
+
+.block-content{
+  position: relative;
+  display: flex;
+
+}
+
+.content{
+  display: none;
+}
+
+.active-content{
+  display: block;
+  padding: 1rem;
+}
+
+.content>p{
+  font-size: small;
+}
+
